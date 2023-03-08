@@ -3,13 +3,13 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    column-gap: 1.4rem;
+    column-gap: 2rem;
 }
 
 .categorias__lista {
     display: flex;
     flex-direction: column;
-    row-gap: .33rem;
+    row-gap: .5rem;
 }
 
 .destaques {
@@ -29,7 +29,7 @@
 .eventos__lista {
     display: flex;
     flex-wrap: wrap;
-    gap: .67rem;
+    gap: 1rem;
     justify-content: center;
 }
 
@@ -41,8 +41,8 @@
 .agenda__lista {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 0.66rem;
-    column-gap: 1rem;
+    row-gap: 1rem;
+    column-gap: 1.5rem;
     justify-content: center;
 }
 
@@ -65,12 +65,12 @@
 @media (min-width: 720px) {
 
     .menu {
-        column-gap: 3.12rem;
+        column-gap: 75px;
     }
 
     .categorias__lista {
-        row-gap: .67rem;
-        column-gap: 1.08rem;
+        row-gap: 1rem;
+        column-gap: 1.5rem;
         flex-wrap: wrap;
     }
 
@@ -92,7 +92,7 @@
 @media (min-width: 1440px) {
 
     .menu {
-        column-gap: 4.37rem;
+        column-gap: 105px;
         flex-wrap: nowrap;
     }
 
@@ -107,7 +107,7 @@
     .menu__item:nth-child(5) {order: 2;}
 
     .categorias__lista {
-        column-gap: 1rem;
+        column-gap: 1.5rem;
         justify-content: space-between;
     }
 

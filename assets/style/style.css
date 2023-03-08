@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: var(--fonte-primaria);
     height: 100vh;
@@ -47,7 +51,7 @@ img:hover {
     font-family: var(--fonte-secundaria);
     font-size: 16px;
     height: 258px;
-    padding: 1rem;
+    padding: 1.5rem;
     white-space: nowrap;
 }
 
@@ -115,7 +119,7 @@ img:hover {
 /*main*/
 
 .principal {
-    padding: 0 1rem;
+    padding: 0 1.5rem;
 }
 
 /*banner*/
@@ -127,11 +131,11 @@ img:hover {
 
 /*categorias*/
 .categorias {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .categorias__titulo {
-    margin-bottom: .67rem;
+    margin-bottom: 1rem;
 }
 
 .categorias__lista {
@@ -140,7 +144,7 @@ img:hover {
 }
 
 .categorias__item {
-    padding: .8rem;
+    padding: 1.25rem;
     text-transform: uppercase;
     cursor: pointer;
     user-select: none;
@@ -148,7 +152,7 @@ img:hover {
     opacity: 1;
     min-width: 282px;
     font-family: var(--fonte-secundaria);
-    font-size: .8rem;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -177,7 +181,7 @@ img:hover {
 }
 
 .destaques {
-    padding: 1.33rem 0 .67rem;
+    padding: 30px 0 10px;
     white-space: nowrap;
 }
 
@@ -192,7 +196,7 @@ img:hover {
 }
 
 .categorias__imagem {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     background-image: url("../img/destaques-360.png");
     background-repeat: no-repeat;
     height: 271px;
@@ -209,13 +213,13 @@ img:hover {
 /* Eventos */
 
 .eventos__titulo {
-    margin-bottom: .67rem;
+    margin-bottom: 1rem;
 }
 
 .eventos__item {
     background-color: var(--cinza-claro);
     width: 287px;
-    padding-bottom: .67rem;
+    padding-bottom: 1rem;
     height: 318px;
 }
 
@@ -236,7 +240,7 @@ img:hover {
 .eventos__item h3,
 .eventos__item h4,
 .eventos__item h5 {
-    padding-left: .67rem;
+    padding-left: 1rem;
 }
 
 .eventos__item button {
@@ -244,9 +248,9 @@ img:hover {
     border: none;
     background-color: black;
     color: white;
-    margin-right: .67rem;
+    margin-right: 1rem;
     text-align: center;
-    padding: .42rem 0;
+    padding: .5rem 0;
     width: 80px;
     cursor: pointer;
     transition: .5s;
@@ -268,7 +272,7 @@ img:hover {
     border: none;
     background-color: black;
     color: white;
-    padding: .42rem 1.58rem;
+    padding: .75rem 2.37rem;
     width: 148px;
     cursor: pointer;
     transition: .5s;
@@ -280,8 +284,8 @@ img:hover {
 /*Agenda*/
 
 .agenda__titulo {
-    margin-top: 1rem;
-    margin-bottom: .67rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .agenda__item {
@@ -297,29 +301,29 @@ img:hover {
     background-color: var(--cinza-escuro);
     color: white;
     text-transform: uppercase;
-    padding: .67rem;
+    padding: 1rem;
     font-family: var(--fonte-secundaria);
     font-weight: 400;
 }
 
 .agenda__informacoes h3 {
-    font-size: 1.33rem;
+    font-size: 2rem;
 }
 
 .agenda__informacoes h4,
 .agenda__informacoes h5 {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .agenda__item .agenda__atracao {
     text-align: center;
-    padding: .67rem;
+    padding: 1rem;
 }
 
 .agenda__atracao h6 {
-    font-size: .75rem;
+    font-size: 18px;
     font-weight: 600;
-    margin-bottom: 1.63rem;
+    margin-bottom: 2rem;
 }
 
 .agenda__atracao button {
@@ -327,12 +331,12 @@ img:hover {
     border: none;
     background-color: black;
     color: white;
-    padding: .33rem 0;
+    padding: .5rem 0;
     width: 125px;
     cursor: pointer;
     transition: .5s;
     font-family: var(--fonte-primaria);
-    font-size: .67rem;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -341,10 +345,10 @@ img:hover {
 .rodape {
     color: var(--cinza-claro);
     background-color: black;
-    margin: .67rem 0;
+    margin: 1rem 0;
     font-size: 14px;
     font-family: var(--fonte-primaria);
-    padding: .67rem;
+    padding: 1rem;
     line-height: 2;
     white-space: nowrap;
 }
@@ -378,15 +382,15 @@ img:hover {
 
     .menu__titulo {
         width: auto;
-        padding: 1.67rem 2.29rem;
+        padding: 40px 55px;
     }
 
     .cabecalho__seu-local::before {
-        padding-right: .33rem;
+        padding-right: 8px;
     }
 
     .cabecalho__seu-local::after {
-        padding-left: .63rem;
+        padding-left: 15px;
     }
 
     .menu__pesquisar {
@@ -396,7 +400,7 @@ img:hover {
     /*main*/
 
     .principal {
-        padding: 0 1.67rem;
+        padding: 0 2.5rem;
     }
 
     /* Categorias */
@@ -421,8 +425,8 @@ img:hover {
     /* Rodapé */ 
 
     .rodape {
-        padding-left: 1.07rem;
-        padding-right: 1.07rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
 }
@@ -453,7 +457,7 @@ img:hover {
     /*main*/
 
     .principal {
-        padding: 0 5rem;
+        padding: 0 7.5rem;
     }
 
     /*categorias*/
